@@ -3,6 +3,7 @@ from PIL import Image
 import os
 import matplotlib.pyplot as plt
 import cv2
+
 # a = str(input("Что вы делаете? "))
 # if a == str("работаю"):
 #     print("Хорошо, продолжай работать, только недолго!")
@@ -12,7 +13,7 @@ import cv2
 # else:
 #     print("грустно")
 
-pictures = os.listdir('pic')
+pictures = os.listdir('C:\\Users\\sgus2\\Desktop\\Время кисяк\\pic')
 print(pictures)
 pic_box = plt.figure(figsize=(16,4))
 for i, picture in enumerate(pictures):
